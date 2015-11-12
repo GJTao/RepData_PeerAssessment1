@@ -194,7 +194,7 @@ qplot(newdailysteps, geom = &quot;histogram&quot;, binwidth = 5000,
 <pre class="r"><code>## Calculate mean and median of the total number of steps take per day
 newdailysteps_mean &lt;- round(mean(newdailysteps), digits =0)
 newdailysteps_median &lt;- median(newdailysteps)</code></pre>
-<p><strong>Imputing missing data changed the distribution of total steps per day. Now the mean of the total numbers of steps taken per day is 10766. The median of the total numbers of steps taken per day is 10762.</strong></p>
+<p><strong>The missing data of the steps in the original dataset is filled by the average steps of the interval where the missing occurs. Imputing missing data changed the distribution of total steps per day. Now the mean of the total numbers of steps taken per day is 10766. The median of the total numbers of steps taken per day is 10762.</strong></p>
 </div>
 <div id="are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="section level3">
 <h3>5. Are there differences in activity patterns between weekdays and weekends?</h3>

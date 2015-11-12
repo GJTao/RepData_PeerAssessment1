@@ -99,7 +99,7 @@ qplot(newdailysteps, geom = "histogram", binwidth = 5000,
 newdailysteps_mean <- round(mean(newdailysteps), digits =0)
 newdailysteps_median <- median(newdailysteps)
 ```
-**Imputing missing data changed the distribution of total steps per day. Now the mean of the total numbers of steps taken per day is `r newdailysteps_mean`. The median of the total numbers of steps taken per day is `r newdailysteps_median`.**
+**The missing data of the steps in the original dataset is filled by the average steps of the interval where the missing occurs. Imputing missing data changed the distribution of total steps per day. Now the mean of the total numbers of steps taken per day is `r newdailysteps_mean`. The median of the total numbers of steps taken per day is `r newdailysteps_median`.**
 
 
 ### 5. Are there differences in activity patterns between weekdays and weekends?
